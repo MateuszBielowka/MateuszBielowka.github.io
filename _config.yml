@@ -1,5 +1,5 @@
 remote_theme: pages-themes/minimal@v0.2.0
-title: Web CV
-description:  
+title: Mateusz Bielówka 
+description:  Web CV
 plugins:
 - jekyll-remote-theme
