@@ -13,16 +13,31 @@
 ### 1. Krakow Tram Network Simulation  
 A discrete-event simulation model for the Krakow tram network, integrating real-world schedule data, GTFS feeds, and geospatial datasets. The model accurately simulates tram movements, passenger arrivals, and boarding/alighting processes. Key features include weighted stop popularity models, gravity-based destination selection, and dynamic demand curves. The simulation enables analysis of system efficiency and peak-hour behavior.
 
+**Repo:** [Link](https://github.com/karolbystrek/krakow-tram-lines-simulator)
 ---
 
 ### 2. Compact Car Assistant  
 A IoT device designed to enhance active safety by monitoring atmospheric conditions, engine temperature, and external lighting. The device also profiles drivers and assists with parking. The project combines hardware design, sensor integration, and data analysis to create a comprehensive safety solution especially for older cars.
 
+**Repo:** [Link](https://github.com/IOT-Car-Assistant-ISI2526)
 ---
 
 ### 3. Intelligent Health Prediction System  
 An AI-powered, distributed application that assesses personalized health risks using custom-trained machine learning models and Google Gemini. The system analyzes medical questionnaires to predict the onset of Diabetes, Heart Attack, and Stroke, while offering a Habits Assessment for general wellness. The architecture follows a microservices approach, with a React frontend, Spring Boot backend, and FastAPI Python service for model inference.
 
+**Repo:** [Link](https://github.com/xhamera1/Intelligent-Health-Prediction-System/tree/main)
+---
+
+### 4. Syntactic Constructor of English Sentences 
+A web-based application designed to programmatically construct grammatically correct English sentences. The tool applies specific linguistic rules to transform base components (subjects, verbs, objects) into full sentences across various tenses.
+
+**Repo:** [Link](https://github.com/MateuszBielowka/Syntactic-Constructor-of-English-Sentences)
+---
+
+### 5. Event Planner
+Web application built with ASP.NET MVC and Identity for user authentication. It allows users to manage events, employees, assignments, and expenses, providing a structured platform for organizing and tracking event-related tasks. The application features secure login, CRUD operations, and a user-friendly interface for efficient event management.
+
+**Repo:** [Link](https://github.com/MateuszBielowka/Event-Planner-MVC-Identity)
 ---
 
 ## Technical Skills  
