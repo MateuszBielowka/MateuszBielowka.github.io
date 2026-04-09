@@ -14,7 +14,7 @@
 
 body {
     font-family: "Trebuchet MS", "Segoe UI", sans-serif;
-    line-height: 1.5;
+    line-height: 1.1;
     color: var(--text);
     background: var(--paper);
 }
@@ -23,6 +23,7 @@ body {
     max-width: 1180px;
     margin: 0 auto;
     padding: 26px 0 36px;
+    background-image: url("porto.png");
 }
 
 .hero-frame {
@@ -32,6 +33,8 @@ body {
     min-height: 255px;
     padding: 64px 64px;
 }
+
+
 
 .frame-top,
 .frame-bottom,
@@ -65,7 +68,7 @@ body {
     height: calc(100% + 56px);
     width: 42px;
     background: url("frame_vert1.png") repeat-y center;
-    background-size: 42px auto;
+    background-size: 50px auto;
 }
 
 .frame-left {
@@ -113,7 +116,7 @@ h1 {
 .left-column {
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 10px;
 }
 
 .contact-card {
@@ -124,12 +127,12 @@ h1 {
 }
 
 .contact-card h2 {
-    color: #d9e53b;
+    color: #ffffff;
     font-size: 2rem;
     letter-spacing: 1px;
     line-height: 1;
     margin-bottom: 10px;
-    border-bottom: 2px solid #8ad65d;
+    border-bottom: 2px solid peachpuff;
     padding-bottom: 8px;
 }
 
@@ -139,7 +142,7 @@ h1 {
 }
 
 .contact-card a {
-    color: #9cff9d;
+    color: var(--paper);
     text-decoration: none;
     font-weight: 700;
 }
@@ -150,33 +153,34 @@ h1 {
 
 .window-block {
     position: relative;
-    width: 260px;
-    max-width: 100%;
+    width: 370px;
     margin-top: -2px;
 }
 
 .window-image {
-    display: block;
-    width: 100%;
+
+    margin-left: -20px;
+    width: 370px;
     height: auto;
 }
 
 .window-skills {
     position: absolute;
     left: 64px;
-    top: 116px;
-    width: 172px;
+    top: 180px;
+    width: 165px;
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 4px;
+    gap: 0px;
 }
+
 
 .window-skills span {
     background-image: url("plate1.png");
     background-repeat: no-repeat;
     background-position: left top;
     background-size: 100%;
-    width: 84px;
+    min-width: 54px;
     min-height: 56px;
     display: grid;
     place-items: center;
@@ -184,12 +188,16 @@ h1 {
     font-size: 0.8rem;
     font-weight: 700;
     color: #2b2a2a;
-    padding: 2px 6px;
+    padding: 0px 0px;
 }
+.window-skills .small {
+    font-size: 0.6rem;
+}
+
 
 .main-column {
     position: relative;
-    border-left: 3px solid #8fc5df;
+    /* border-left: 3px solid #8fc5df; */
     padding-left: 24px;
 }
 
@@ -200,7 +208,7 @@ h1 {
     top: 0;
     width: 3px;
     height: 100%;
-    background: #98cf68;
+    background: papayawhip;
 }
 
 .content-section {
@@ -214,9 +222,10 @@ h1 {
 }
 
 .content-panel {
-    background: var(--lime-soft);
+    background: var(--blue);
     padding: 18px;
     position: relative;
+    border-radius: 15px;
 }
 
 .content-panel::before {
@@ -226,13 +235,14 @@ h1 {
     right: 22px;
     top: 12px;
     height: 4px;
-    background: var(--lime);
+    background: var(--blue);
 }
 
 .content-panel-inner {
     background: #ececed;
     padding: 22px 18px;
     margin-top: 16px;
+    border-radius: 15px;
 }
 
 .content-panel-inner p {
@@ -307,22 +317,11 @@ footer {
         display: none;
     }
 
-    .window-block {
-        width: 220px;
+     .window-block {
+        display: none;
     }
 
-    .window-skills {
-        left: 54px;
-        top: 98px;
-        width: 136px;
-    }
 
-    .window-skills span {
-        width: 66px;
-        min-height: 44px;
-        font-size: 0.68rem;
-        background-size: 66px 44px;
-    }
 
     .content-panel-inner p {
         font-size: 1.1rem;
